@@ -1,4 +1,5 @@
 
+{{include header}}
 
 (** this is your 404 page when a bad page is reached **)
 <div class="header">
@@ -21,3 +22,4 @@
 </div>
 
 
+{{include footer}}
