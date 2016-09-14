@@ -108,7 +108,7 @@
             </div>
     </section>
 
-    <section class="cta" style="background-url: url({{page.image4.getImage()}}">
+    <section class="cta" style="background-url: url({{page.image4.getImage()}})">
         <div class="cta-content">
             <div class="container">
                 <h2>{{page.title4}}</h2>
