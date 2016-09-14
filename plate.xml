@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone='yes'?>
+<plate>
+  <ingredients>
+    <templateset name="homepage" name_friendly="Homepage" view="homepage">
+      <fields>
+        <text name="title1" name_friendly="Title (Section 1)" required="1" />
+        <text name="button_text_1" name_friendly="Button Text (Section 1)" required="1" />
+        <images name="image1" name_friendly="Image (Section 1)" limit="1" />
+        
+        <text name="title2" name_friendly="Title Section 2" required="1" />
+        <wysiwyg_advanced name="content2" name_friendly="Content Section 2" />
+
+		<text name="title3" name_friendly="Sub Title Section 3" required="1" />
+       	<text name="sub_title3" name_friendly="Title Section 3" required="1" />
+        <images name="image3" name_friendly="Image Section 3" limit="1" />
+        
+        <text name="title4" name_friendly="Title (Section 4)" required="1" />
+        <text name="button_text_4" name_friendly="Button Text (Section 4)" required="1" />
+        
+        
+      </fields>
+      <items>
+        <item link_title="Homepage" path_part="zesty_home">
+          <title1><![CDATA[New Age is an app landing page for Bootstrap that will help you beautifully showcase your new mobile app, or anything else!]]></title1>
+          <button_text_1><![CDATA[Start Now For Free!]]></button_text_1>
+          
+          <image><![CDATA[https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg]]></image>
+          <title2><![CDATA[Discover what all the buzz is about!]]></title2>
+          <content><![CDATA[<p>Our app is available on any mobile device! Download now to get started!</p>]]></content>
+          
+          <title3><![CDATA[Unlimited Features, Unlimited Fun]]></title3>
+          <sub_title3><![CDATA[Unlimited Features, Unlimited Fun]]></sub_title3>
+          <image3><![CDATA[https://blackrockdigital.github.io/startbootstrap-new-age/img/demo-screen-1.jpg]]></image3>
+          
+           <title4><![CDATA[Stop waiting. Start building.]]></title4>
+          <button_text_4><![CDATA[Let's get Started!]]></button_text_4>
+          
+          
+        </item>
+      </items>
+    </templateset>
+     <dataset name="social_links" name_friendly="Social Links">
+      <fields>
+        <text name="name" name_friendly="Social Media Name" required="1" />
+        <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" required="1" />
+        <images name="url" name_friendly="Social Medi Link" limit="1" />        
+      </fields>
+      <items>
+        <item>
+          <name><![CDATA[Facebook]]></title1>
+          <font_awesome_icon><![CDATA[facebook]]></button_text_1> 
+          <url><![CDATA[https://www.facebook.com]]></image>
+        </item>
+        <item>
+          <name><![CDATA[Twitter]]></title1>
+          <font_awesome_icon><![CDATA[twitter]]></button_text_1> 
+          <url><![CDATA[https://www.twitter.com]]></image>
+        </item>
+
+      </items>
+    </templateset>
+    
+  </ingredients>
+
+  <clippings>
+    <text name="site_name" name_friendly="Site Name" required="1">
+      <![CDATA[Bootstrap New Age]]>
+    </text>
+    <images name="logo" name_friendly="Site Logo" limit="1" />
+    <text name="footer_text" name_friendly="Footer Text">
+      <![CDATA[Zesty.io New Age Landing Page]]>
+    </text>
+  </clippings>
+
+  <head>
+    <doctype>html5</doctype>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.js"></script>
+	
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli" >
+	
+  </head>
+
+</plate>
