@@ -47,18 +47,18 @@
       </fields>
       <items>
         <item>
-          <name><![CDATA[Facebook]]></title1>
-          <font_awesome_icon><![CDATA[facebook]]></button_text_1> 
-          <url><![CDATA[https://www.facebook.com]]></image>
+          <name><![CDATA[Facebook]]></name>
+          <font_awesome_icon><![CDATA[facebook]]></font_awesome_icon> 
+          <url><![CDATA[https://www.facebook.com]]></url>
         </item>
         <item>
-          <name><![CDATA[Twitter]]></title1>
-          <font_awesome_icon><![CDATA[twitter]]></button_text_1> 
-          <url><![CDATA[https://www.twitter.com]]></image>
+          <name><![CDATA[Twitter]]></name>
+          <font_awesome_icon><![CDATA[twitter]]></font_awesome_icon> 
+          <url><![CDATA[https://www.twitter.com]]></url>
         </item>
 
       </items>
-    </templateset>
+    </dataset>
     
   </ingredients>
 
@@ -83,9 +83,9 @@
 	
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" >
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" >
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli" >
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli" />
 	
   </head>
 
