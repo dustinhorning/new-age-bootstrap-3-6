@@ -40,11 +40,12 @@
         </item>
       </items>
     </templateset>
+    
      <dataset name="social_links" name_friendly="Social Links">
       <fields>
-        <text name="name" name_friendly="Social Media Name" required="1" />
-        <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" required="1" />
-        <images name="url" name_friendly="Social Medi Link" limit="1" />        
+        <text name="name" name_friendly="Social Media Name" required="1" show_in_table="1" />
+        <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" show_in_table="1" required="1" />
+        <images name="url" name_friendly="Social Media Link" limit="1" show_in_table="1" />        
       </fields>
       <items>
         <item>
