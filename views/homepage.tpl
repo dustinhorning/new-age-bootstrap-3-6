@@ -65,7 +65,8 @@
                         <div class="device">
                             <div class="screen">
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="{{page.image3.getImage()}}" class="img-responsive" alt="{{page.title3}} Image"> </div>
+                                <img src="{{page.image3.getImage()}}" class="img-responsive" alt="{{page.title3}} Image">
+                            </div>
                             <div class="button">
                                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                             </div>
