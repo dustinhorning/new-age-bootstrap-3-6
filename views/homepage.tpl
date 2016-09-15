@@ -7,7 +7,7 @@
                 <div class="header-content">
                     <div class="header-content-inner">
                         <h1>{{page.title1}}</h1>
-                        <a href="#{{page.section3_name}}" class="btn btn-outline btn-xl page-scroll">{{page.button_text_1}}</a>
+                        <a href="#{{page.section2_name}}" class="btn btn-outline btn-xl page-scroll">{{page.button_text_1}}</a>
                     </div>
                 </div>
             </div>
@@ -33,6 +33,18 @@
             <div class="col-md-8 col-md-offset-2">
                 <h2 class="section-heading">{{page.title2}}</h2>
                 {{page.content2}}
+                <form class="form-inline" name="signup" data-toggle="validator" role="form">
+				  <div class="form-group">
+				  (**<label for="exampleInputName2">Name</label> **)
+				    <input type="text" name="name" class="form-control" id="exampleInputName2" placeholder="Jane Doe" required>
+				  </div>
+				  <div class="form-group">
+				    (**<label for="exampleInputEmail2">Email</label>**)
+				    <input type="email" name="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com" required>
+				  </div>
+				  <button type="submit" class="btn btn-default">Send invitation</button>
+				</form>
+				                
                 
                 (** If you have a mobile application, remove the form and uncomment these links
                 <div class="badges">
@@ -98,7 +110,7 @@
     <div class="cta-content">
         <div class="container">
             <h2>{{page.title4}}</h2>
-            <a href="#{{page.section3_name}}" class="btn btn-outline btn-xl page-scroll">{{page.button_text_4}}</a>
+            <a href="#{{page.section2_name}}" class="btn btn-outline btn-xl page-scroll">{{page.button_text_4}}</a>
         </div>
     </div>
     <div class="overlay"></div>
