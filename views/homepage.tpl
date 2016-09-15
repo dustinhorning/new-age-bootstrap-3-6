@@ -33,7 +33,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <h2 class="section-heading">{{page.title2}}</h2>
                 {{page.content2}}
-                <form class="form-inline" name="signup" data-toggle="validator" role="form">
+               <form class="form-inline" name="signup" data-toggle="validator" method="post" action="/" role="form">
 				  <input type="hidden" name="zlf" value="1">
 				  (** to get a form email, in Zesty.io manager goto config -> settings -> contact form and verify your email **)
 				  <input type="hidden" name="zcf" value="1">					
