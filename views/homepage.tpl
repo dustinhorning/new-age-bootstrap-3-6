@@ -1,36 +1,4 @@
 
-
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">{{clippings.site_name}}</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href="#download">Download</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#features">Features</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
-
-
-
 <header>
     <div class="container">
         <div class="row">
@@ -109,36 +77,21 @@
             <div class="col-md-8">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-6">
+	                    {{each home_page_bullets as bullet}}
+	                    <div class="col-md-6">
                             <div class="feature-item">
-                                <i class="icon-screen-smartphone text-primary"></i>
-                                <h3>Device Mockups</h3>
-                                <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                                <i class="fa fa-{{bullet.font_awesome_icon}} text-primary"></i>
+                                <h3>{{bullet.title}}</h3>
+                                <p class="text-muted">{{bullet.short_blurb}}</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="feature-item">
-                                <i class="icon-camera text-primary"></i>
-                                <h3>Flexible Use</h3>
-                                <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="feature-item">
-                                <i class="icon-present text-primary"></i>
-                                <h3>Free to Use</h3>
-                                <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="feature-item">
-                                <i class="icon-lock-open text-primary"></i>
-                                <h3>Open Source</h3>
-                                <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
-                            </div>
-                        </div>
+	                    
+	                    {{if {index} % 2 == 0 }}
+	                </div>
+                    <div class="row">   
+	                    {{end-if}}
+                  	                    
+	                    {{end-each}}
                     </div>
                 </div>
             </div>
@@ -150,7 +103,7 @@
     <div class="cta-content">
         <div class="container">
             <h2>{{page.title4}}</h2>
-            <a href="#contact" class="btn btn-outline btn-xl page-scroll">{{page.button_text_4}}</a>
+            <a href="#download" class="btn btn-outline btn-xl page-scroll">{{page.button_text_4}}</a>
         </div>
     </div>
     <div class="overlay"></div>

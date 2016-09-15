@@ -61,7 +61,35 @@
 
       </items>
     </dataset>
-    
+    <dataset name="home_page_bullets" name_friendly="Homepage Bullets">
+      <fields>
+        <text name="title" name_friendly="Title" required="1" show_in_table="1" />
+        <text name="short_blurb" name_friendly="Short Blurb" show_in_table="1" required="1" />
+        <text name="font_awesome_icon" name_friendly="Font Awesome Icon (Class Name)" required="1" />
+      </fields>
+      <items>
+        <item>
+          <title><![CDATA[Device Mockups]]></title>
+          <short_blurb><![CDATA[Ready to use HTML/CSS device mockups, no Photoshop required!]]></short_blurb>
+          <font_awesome_icon><![CDATA[mobile]]></font_awesome_icon> 
+        </item>
+        <item>
+          <title><![CDATA[Flexible Use]]></title>
+          <short_blurb><![CDATA[Put an image, video, animation, or anything else in the screen!]]></short_blurb>
+          <font_awesome_icon><![CDATA[object-ungroup]]></font_awesome_icon> 
+        </item>
+        <item>
+          <title><![CDATA[Free to Use]]></title>
+          <short_blurb><![CDATA[As always, this theme is free to download and use for any purpose!]]></short_blurb>
+          <font_awesome_icon><![CDATA[magic]]></font_awesome_icon> 
+        </item>     
+        <item>
+          <title><![CDATA[Open Source]]></title>
+          <short_blurb><![CDATA[Since this theme is MIT licensed, you can use it commercially!]]></short_blurb>
+          <font_awesome_icon><![CDATA[quote-right]]></font_awesome_icon> 
+        </item>                        
+      </items>
+    </dataset>
   </ingredients>
 
   <clippings>
