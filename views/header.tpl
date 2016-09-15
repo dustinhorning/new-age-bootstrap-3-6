@@ -14,13 +14,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#download">Download</a>
+                    <a class="page-scroll" href="#{{page.section2_name}}">{{page.section2_name}}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#features">Features</a>
+                    <a class="page-scroll" href="#{{page.section3_name}}">{{page.section3_name}}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#{{page.section4_name}}">{{page.section4_name}}</a>
                 </li>
             </ul>
         </div>

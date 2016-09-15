@@ -1,4 +1,5 @@
 
+
 <header>
     <div class="container">
         <div class="row">
@@ -6,7 +7,7 @@
                 <div class="header-content">
                     <div class="header-content-inner">
                         <h1>{{page.title1}}</h1>
-                        <a href="#download" class="btn btn-outline btn-xl page-scroll">{{page.button_text_1}}</a>
+                        <a href="#{{page.section3_name}}" class="btn btn-outline btn-xl page-scroll">{{page.button_text_1}}</a>
                     </div>
                 </div>
             </div>
@@ -18,9 +19,6 @@
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                                 <img src="{{page.image1.getImage()}}" class="img-responsive" alt="{{page.title1}} Image">
                             </div>
-                            <div class="button">
-                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -29,7 +27,7 @@
     </div>
 </header>
 
-<section id="download" class="download bg-primary text-center">
+<section id="{{page.section2_name}}" class="download bg-primary text-center">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -47,7 +45,7 @@
     </div>
 </section>
 
-<section id="features" class="features">
+<section id="{{page.section3_name}}" class="features">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -66,9 +64,6 @@
                             <div class="screen">
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                                 <img src="{{page.image3.getImage()}}" class="img-responsive" alt="{{page.title3}} Image">
-                            </div>
-                            <div class="button">
-                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                             </div>
                         </div>
                     </div>
@@ -103,13 +98,13 @@
     <div class="cta-content">
         <div class="container">
             <h2>{{page.title4}}</h2>
-            <a href="#download" class="btn btn-outline btn-xl page-scroll">{{page.button_text_4}}</a>
+            <a href="#{{page.section3_name}}" class="btn btn-outline btn-xl page-scroll">{{page.button_text_4}}</a>
         </div>
     </div>
     <div class="overlay"></div>
 </section>
 
-<section id="contact" class="contact bg-primary">
+<section id="{{page.section4_name}}" class="contact bg-primary">
     <div class="container">
         <h2>We <i class="fa fa-heart"></i> new friends!</h2>
         <ul class="list-inline list-social">
