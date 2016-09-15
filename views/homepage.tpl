@@ -5,7 +5,7 @@
             <div class="col-sm-7">
                 <div class="header-content">
                     <div class="header-content-inner">
-                        <h1>{{page.title}}</h1>
+                        <h1>{{page.title1}}</h1>
                         <a href="#download" class="btn btn-outline btn-xl page-scroll">{{page.button_text_1}}</a>
                     </div>
                 </div>
@@ -16,7 +16,7 @@
                         <div class="device">
                             <div class="screen">
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="{{page.image1.getImage()}}" class="img-responsive" alt="">
+                                <img src="{{page.image1.getImage()}}" class="img-responsive" alt="{{page.title1}} Image">
                             </div>
                             <div class="button">
                                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -35,10 +35,13 @@
             <div class="col-md-8 col-md-offset-2">
                 <h2 class="section-heading">{{page.title2}}</h2>
                 {{page.content2}}
+                
+                (** If you have a mobile application, remove the form and uncomment these links
                 <div class="badges">
                     <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
                     <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
                 </div>
+                **)
             </div>
         </div>
     </div>
@@ -62,7 +65,7 @@
                         <div class="device">
                             <div class="screen">
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="{{page.image3.getImage()}}" class="img-responsive" alt=""> </div>
+                                <img src="{{page.image3.getImage()}}" class="img-responsive" alt="{{page.title3}} Image"> </div>
                             <div class="button">
                                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                             </div>
@@ -107,6 +110,7 @@
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
 <section class="cta" style="background-url: url({{page.image4.getImage()}})">
