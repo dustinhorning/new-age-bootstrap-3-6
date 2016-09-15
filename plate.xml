@@ -52,8 +52,8 @@
     
      <dataset name="social_links" name_friendly="Social Links">
       <fields>
-        <text name="name" name_friendly="Social Media Name" required="1" show_in_table="1" />
-        <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" show_in_table="1" required="1" />
+        <text name="name" name_friendly="Social Media Name" required="1" list="1" />
+        <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" list="1" required="1" />
         <images name="url" name_friendly="Social Media Link" limit="1" show_in_table="1" />        
       </fields>
       <items>
@@ -72,8 +72,8 @@
     </dataset>
     <dataset name="home_page_bullets" name_friendly="Homepage Bullets">
       <fields>
-        <text name="title" name_friendly="Title" required="1" show_in_table="1" />
-        <text name="short_blurb" name_friendly="Short Blurb" show_in_table="1" required="1" />
+        <text name="title" name_friendly="Title" required="1" list="1" />
+        <text name="short_blurb" name_friendly="Short Blurb" list="1" required="1" />
         <text name="font_awesome_icon" name_friendly="Font Awesome Icon (Class Name)" required="1" />
       </fields>
       <items>
