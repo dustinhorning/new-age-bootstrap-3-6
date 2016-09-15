@@ -34,6 +34,9 @@
                 <h2 class="section-heading">{{page.title2}}</h2>
                 {{page.content2}}
                 <form class="form-inline" name="signup" data-toggle="validator" role="form">
+				  <input type="hidden" name="zlf" value="1">
+				  (** to get a form email, in Zesty.io manager goto config -> settings -> contact form and verify your email **)
+				  <input type="hidden" name="zcf" value="1">					
 				  <div class="form-group">
 				  (**<label for="exampleInputName2">Name</label> **)
 				    <input type="text" name="name" class="form-control" id="exampleInputName2" placeholder="Jane Doe" required>
