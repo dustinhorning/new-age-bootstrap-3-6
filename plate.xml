@@ -54,7 +54,7 @@
       <fields>
         <text name="name" name_friendly="Social Media Name" required="1" list="1" />
         <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" list="1" required="1" />
-        <images name="url" name_friendly="Social Media Link" limit="1" list="1" />        
+        <text name="url" name_friendly="Social Media Link" limit="1" list="1" />        
       </fields>
       <items>
         <item>
