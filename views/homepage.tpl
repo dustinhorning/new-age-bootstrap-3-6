@@ -6,25 +6,21 @@
             <div class="col-sm-7">
                 <div class="header-content">
                     <div class="header-content-inner">
-                        <h1>{{page.title1}}</h1>
-                        <a href="#{{page.section2_name}}" class="btn btn-outline btn-xl page-scroll">{{page.button_text_1}}</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-5">
-                <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white">
-                        <div class="device">
-                            <div class="screen">
-                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="{{page.image1.getImage()}}" class="img-responsive" alt="{{page.title1}} Image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+						<h1>{{page.title1}}</h1>
+						<a href="#{{page.section2_name}}" class="btn btn-outline btn-xl page-scroll">{{page.button_text_1}}</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-5">
+				<div class="header-content">
+					<div class="header-content-inner">
+						<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+						<img src="{{page.image1.getImage()}}" class="img-responsive" alt="{{page.title1}} Image">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </header>
 
 <section id="{{page.section2_name}}" class="download bg-primary text-center">
@@ -35,7 +31,7 @@
                 {{page.content2}}
                <form class="form-inline" name="signup" data-toggle="validator" method="post" action="/" role="form">
 				  <input type="hidden" name="form_name" value="Setup Demo">
-				 				
+
 				  <div class="form-group">
 				  (**<label for="exampleInputName2">Name</label> **)
 				    <input type="text" name="name" class="form-control" id="exampleInputName2" placeholder="Jane Doe" required>
@@ -47,10 +43,10 @@
 				  <button type="submit" class="btn btn-default">Send invitation</button>
 				   <input type="hidden" name="zlf" value="1">
 				  (** to get a form email, in Zesty.io manager goto config -> settings -> contact form and verify your email **)
-				  <input type="hidden" name="zcf" value="1">	
+				  <input type="hidden" name="zcf" value="1">
 				</form>
-				                
-                
+
+
                 (** If you have a mobile application, remove the form and uncomment these links
                 <div class="badges">
                     <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
@@ -97,12 +93,12 @@
                                 <p class="text-muted">{{bullet.short_blurb}}</p>
                             </div>
                         </div>
-	                    
+
 	                    {{if {index} % 2 == 0 }}
 	                </div>
-                    <div class="row">   
+                    <div class="row">
 	                    {{end-if}}
-                  	                    
+
 	                    {{end-each}}
                     </div>
                 </div>
@@ -128,9 +124,8 @@
             {{each social_links as social}}
             <li class="social-{{social.font_awesome_icon}}">
                 <a href="{{social.url}}"><i class="fa fa-{{social.font_awesome_icon}}"></i></a>
-            </li>                
+            </li>
             {{end-each}}
         </ul>
     </div>
 </section>
-
