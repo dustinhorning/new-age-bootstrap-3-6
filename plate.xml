@@ -28,9 +28,9 @@
       <items>
         <item link_title="Homepage" path_part="zesty_home">
 
-          <title1><![CDATA[Millennium Health is personalized medication intelligence.]]></title1>
-          <button_text_1><![CDATA[Learn More]]></button_text_1>
-          <image1><![CDATA[https://wjklnh.media.zestyio.com/Screen-Shot-2018-03-16-at-4.49.24-PM.f1cb27a519bdb5b6ed34049a5b86e317.png]]></image1>
+          <title1><![CDATA[99% ORGANIC INGREDIENTS. 100% PURE PLEASURE.]]></title1>
+          <button_text_1><![CDATA[Buy Now]]></button_text_1>
+          <image1><![CDATA[https://astroglide.media.zestyio.com/product.png]]></image1>
 
           <section2_name><![CDATA[download]]></section2_name>
           <title2><![CDATA[Discover what all the buzz is about!]]></title2>
@@ -103,13 +103,13 @@
 
   <clippings>
     <text name="site_name" name_friendly="Site Name" required="1">
-      <![CDATA[Millenium Health Landing Page]]>
+      <![CDATA[Astroglide Try O]]>
     </text>
     <images name="logo" name_friendly="Site Logo" limit="1" >
-      <![CDATA[https://wjklnh.media.zestyio.com/MH-Logo-Color-RGB.png]]>
+      <![CDATA[https://astroglide.media.zestyio.com/logo.d26bcb753fd7530f802cdd409b8a07a4.Hk9oxFRAg.png]]>
     </images>
     <text name="footer_text" name_friendly="Footer Text">
-      <![CDATA[Millenium Health Landing Page]]>
+      <![CDATA[Biofilm Landing Page]]>
     </text>
   </clippings>
 
